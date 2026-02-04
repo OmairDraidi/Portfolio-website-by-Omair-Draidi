@@ -53,7 +53,7 @@ export const projects = [
       "A premium, professional platform designed to bridge the gap between mentors and mentees. Built with a focus on modern user experience and real-time performance, offering a comprehensive suite of tools for skill sharing, professional growth, and mentorship management.",
     techStack: ["React", "TypeScript", "Tailwind CSS", "Real-time"],
     githubUrl: "https://github.com/OmairDraidi",
-    liveUrl: null,
+    liveUrl: "https://mentor-connect-frontend-ten.vercel.app/",
   },
 ];
 
