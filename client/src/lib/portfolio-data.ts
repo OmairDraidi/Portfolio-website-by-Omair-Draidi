@@ -55,6 +55,15 @@ export const projects = [
     githubUrl: "https://github.com/OmairDraidi",
     liveUrl: "https://mentor-connect-frontend-ten.vercel.app/",
   },
+  {
+    id: 3,
+    title: "FlowBoard",
+    description:
+      "A modern, premium Kanban-style task management application designed for seamless productivity. Features include customizable columns, fluid drag-and-drop powered by @dnd-kit, advanced global search and filtering, dynamic theme system, and persistent smart state management.",
+    techStack: ["React 18", "Tailwind CSS v4", "Zustand", "Framer Motion", "@dnd-kit"],
+    githubUrl: "https://github.com/OmairDraidi/FlowBoard",
+    liveUrl: "https://flow-board-iuxg2r161-omairdraidis-projects.vercel.app/",
+  },
 ];
 
 export const experience = [
