@@ -2,18 +2,28 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { skills, problemSolving } from "@/lib/portfolio-data";
 import { motion } from "framer-motion";
-import { Code2, Server, Wrench } from "lucide-react";
+import { Code2, Server, Wrench, Database, Binary } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Frontend",
+    title: "Frontend Development",
     icon: Code2,
     skills: skills.frontend,
   },
   {
-    title: "Languages",
+    title: "Backend Development",
     icon: Server,
     skills: skills.backend,
+  },
+  {
+    title: "Databases",
+    icon: Database,
+    skills: skills.databases,
+  },
+  {
+    title: "Programming Languages",
+    icon: Binary,
+    skills: skills.languages,
   },
   {
     title: "Tools",

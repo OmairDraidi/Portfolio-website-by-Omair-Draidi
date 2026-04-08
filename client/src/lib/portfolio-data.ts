@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Omair Draidi",
-  role: "Front-End Developer",
-  tagline: "Computer Systems Engineer specializing in modern front-end experiences.",
+  role: "Full-Stack Developer",
+  tagline: "Computer Systems Engineer & Full-Stack Web Developer.",
   email: "omayrd8@gmail.com",
   linkedin: "https://www.linkedin.com/in/omair-draidi-075189235/",
   github: "https://github.com/OmairDraidi",
@@ -10,29 +10,40 @@ export const personalInfo = {
   location: "Palestine | Tulkarm",
 };
 
-export const aboutSummary = `As a graduate in Computer Systems Engineering, I specialize in Front-End Web Development with hands-on experience building responsive and user-focused web applications. I am seeking opportunities where I can contribute to real-world projects and continue developing as a front-end developer.`;
+export const aboutSummary = `Computer Systems Engineer with hands-on experience in building scalable, modern web applications using React and full-stack practices. Passionate about developing reliable, user-friendly, and high-performance web solutions. Proven ability to deliver complete features from UI/​UX to authentication, real-time systems, and analytics serving 1000–2500 users.`;
 
 export const skills = {
   frontend: [
     "HTML5",
     "CSS3",
+    "Sass",
     "React.js",
     "Tailwind CSS",
-    "JavaScript",
-    "TypeScript",
   ],
   backend: [
-    "C++",
-    "Java",
-    "Python",
     "Node.js",
+    "RESTful APIs",
+    "JWT authentication",
+    "socket.io",
+  ],
+  databases: [
+    "Firebase",
+    "MySQL",
+    "PostgreSQL",
+  ],
+  languages: [
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Java",
   ],
   tools: [
     "Git",
     "GitHub",
     "Docker",
-    "Microsoft Office",
     "n8n",
+    "Microsoft Office",
   ],
 };
 
@@ -50,9 +61,9 @@ export const projects = [
     id: 2,
     title: "MentorConnect",
     description:
-      "A premium, professional platform designed to bridge the gap between mentors and mentees. Built with a focus on modern user experience and real-time performance, offering a comprehensive suite of tools for skill sharing, professional growth, and mentorship management.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Real-time"],
-    githubUrl: "https://github.com/OmairDraidi",
+      "A professional Full-Stack mentoring platform facilitating seamless connections between mentors and mentees. Features secure session-based authentication, real-time messaging with Socket.IO, and intelligent compatibility matching. Includes specialized role-based dashboards, advanced search filters, and a comprehensive Admin Control Center for platform analytics.",
+    techStack: ["React 18", "Node.js", "PostgreSQL", "Drizzle ORM", "Socket.IO", "Passport.js", "Tailwind CSS", "Docker"],
+    githubUrl: "https://github.com/OmairDraidi/mentorConnect",
     liveUrl: "https://mentor-connect-frontend-ten.vercel.app/",
   },
   {
@@ -89,6 +100,26 @@ export const experience = [
     description:
       "Intensive coding program focused on practical software development skills and real-world project experience.",
   },
+  {
+    id: 3,
+    type: "work",
+    title: "Ramadan Front-End Design Bootcamp",
+    organization: "Knowledge Academy",
+    location: "Online",
+    startDate: "03/2026",
+    endDate: "03/2026",
+    description: "Successfully completed an intensive 10-hour training bootcamp focused on modern Front-End design principles and responsive web experiences.",
+  },
+  {
+    id: 4,
+    type: "Intern",
+    title: "Software Engineering Intern",
+    organization: "Palsoft",
+    location: "Online",
+    startDate: "11/2025",
+    endDate: "01/2026",
+    description: "Completed a comprehensive 400-hour field training internship in Software Engineering, demonstrating high commitment and professionalism while working on real-world projects",
+  }
 ];
 
 export const education = [
@@ -117,6 +148,6 @@ export const education = [
 ];
 
 export const problemSolving = {
-  codeforces: "400+ Problems",
-  leetcode: "100+ Problems",
+  codeforces: "400+ Problems on Codeforces",
+  leetcode: "100+ Problem on LeetCode",
 };
